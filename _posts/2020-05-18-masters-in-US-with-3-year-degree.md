@@ -162,13 +162,12 @@ enrolled for in a 1-year PGD course at IGNOU and followed all the steps I mentio
 above. While he was still a student at IGNOU, he applied to a total of 5 master's 
 programs at 3 universities. He was offered admission to all the three universities, 
 two of which were in the top 50 list.
-
 He is now living his happily-ever-after in the US, pursuing a master's. He 
 obtained funding as a Teaching Assistant (TA) after he arrived, so his education
 is now almost free, his health insurance is covered for, and he gets paid a monthly 
-salary the covers his living expenses. Final word of advice: once you arrive in the 
-US, fight tooth and nail for obtaining a TA position. Go to every professor and 
-every department at your university looking for a paid TA or research assistant (RA) 
+salary that covers his living expenses. Final word of advice: once you arrive in the 
+US, fight tooth and nail for obtaining a TA or a research assistant (RA) position. 
+Go to every professor and every department at your university looking for a paid TA/RA 
 position that covers your insurance and tuition. If those are not available, look 
 for any and all possible on-campus jobs no matter how big or small.
 
