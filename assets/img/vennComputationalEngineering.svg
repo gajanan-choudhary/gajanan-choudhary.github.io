@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .sans-serif{font-family:'FreeSans','Arial','Helvetica',sans-serif}
+    </style>
+  </defs>
+
+  <ellipse cx="33.33%" cy="33.33%" rx="33%" ry="33%"
+    fill="rgba(0, 225, 65, 0.3)"
+    style="stroke: rgb(0, 136, 55); stroke-opacity:0.5;">
+  </ellipse>
+  <ellipse cx="66.66%" cy="33.33%" rx="33%" ry="33%"
+    fill="rgba(225, 65, 0, 0.3)"
+    style="stroke: rgb(202, 0, 32); stroke-opacity: 0.5;">
+  </ellipse>
+  <ellipse cx="50%" cy="66.66%" rx="33%" ry="33%"
+    fill="rgba(65, 0, 225, 0.3)"
+    style="stroke: rgb(94, 60, 153); stroke-opacity: 0.5;">
+  </ellipse>
+  <text class="sans-serif" y="30%" text-anchor="middle" id="1">
+    <tspan x="20%" dy="0">Engineering</tspan>
+  </text>
+  <text class="sans-serif" y="30%" text-anchor="middle" id="2">
+    <tspan x="80%" dy="0">Mathematics</tspan>
+  </text>
+  <text class="sans-serif" y="46%" text-anchor="middle" id="123">
+    <tspan x="50%" dy="-10">Computational</tspan>
+    <tspan x="50%" dy="20">engineering</tspan>
+  </text>
+  <text class="sans-serif" y="78%" text-anchor="middle" id="3">
+    <tspan x="50%" dy="-10">Computer</tspan>
+    <tspan x="50%" dy="20">science</tspan>
+  </text>
+</svg>
+
