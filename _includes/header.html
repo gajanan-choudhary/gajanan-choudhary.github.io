@@ -53,6 +53,59 @@
     <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+    <!-- SEO : JSON-LD Schema data -->
+    <script type="application/ld+json"> {
+      "@context": "http://schema.org/",
+      "@type": "Person",
+      "name": "{{ user.name }}",
+      "alternateName": "Gajanan Krishna Choudhary",
+      "givenName": "Gajanan",
+      "additionalName": "Krishna",
+      "familyName": "Choudhary",
+      "url": "https://gajanan-choudhary.github.io",
+      "sameAs": [
+        "https://users.oden.utexas.edu/~gajanan/",
+        "https://www.oden.utexas.edu/people/1400/",
+        "https://scholar.google.com/citations?user=usGVAiUAAAAJ&hl=en",
+        "https://www.linkedin.com/in/gajananchoudhary",
+        "https://utexas.academia.edu/GajananChoudhary",
+        "https://github.com/gajanan-choudhary",
+        "https://www.facebook.com/gajananchoudhary91"
+      ],
+      "image": "{{ user.avatar_url }}",
+      "description": "Computational engineer specializing in scientific/high performance computing, applied mathematics, and machine learning.",
+      "honorificPrefix": "Dr.",
+      "honorificSuffix": "Ph.D.",
+      "jobTitle": "Postdoctoral Fellow",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "The University of Texas at Austin",
+        "url": "https://www.utexas.edu/"
+      },
+      "colleague": {
+        "@type": "Person",
+        "name": "Clint Dawson",
+        "url": "https://www.ae.utexas.edu/people/faculty/faculty-directory/dawson",
+        "sameAs": "https://chg.oden.utexas.edu/"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "The University of Texas at Austin",
+          "url": "https://www.utexas.edu",
+          "sameAs": "https://en.wikipedia.org/wiki/University_of_Texas_at_Austin"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Indian Institute of Technology Kharagpur",
+          "url": "http://www.iitkgp.ac.in/",
+          "sameAs": "https://en.wikipedia.org/wiki/Indian_Institute_of_Technology_Kharagpur"
+        }
+      ]
+    }
+    </script>
+
+
     <!--Google Analytics timing information. Measures time spent on page.-->
     <script type="text/javascript">
       function timer11(){ga('send', 'event', 'TimeOnPage', '11-30 seconds', '1', { 'nonInteraction': 1 });}
