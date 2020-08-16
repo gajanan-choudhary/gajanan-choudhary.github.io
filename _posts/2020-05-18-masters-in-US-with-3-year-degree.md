@@ -34,14 +34,15 @@ in India that is accredited by the <a href="https://www.ugc.ac.in/" target="_bla
 University Grants Commission (UGC)</a> and offers 1-year degrees such as a post-graduate 
 diploma (PGD) (or a two-year master's course if you are feeling 
 adventurous), enroll yourself in it, and complete it. You can (and **should**) 
-apply for admissions while you are still a student, but you are still going to 
-need to **complete that degree before you begin your master's in the US**. 
+apply for admissions to US universities while you are still a
+student enrolled in a distance learning course in India, but you must still 
+**complete that degree before you begin your master's in the US**. 
 The UGC accreditation is absolutely critical here. Getting a PGD from a 
 non-accredited institute, no matter how famous or well-respected, does not 
 count toward the 4-year degree requirement. One example of an Indian university 
 with 1-year PGDs is <a href="http://www.ignou.ac.in/" target="_blank">Indira Gandhi National 
-Open University (IGNOU)</a>. There are others you can find if you search around 
-online.
+Open University (IGNOU)</a>. There are <a href="https://www.ugc.ac.in/deb/"
+target="_blank">others you can find</a> if you search around online.
 
 The reason this might turn out to be the least painful option for you 
 -- particularly going the IGNOU route since it is distance-learning --
@@ -108,7 +109,7 @@ your transcripts mailed to your home that I would not recommend at all.
 envelope **before** you travel to US in August.
 - Submit the sealed IGNOU transcripts to your university upon your arrival.
 If you do not submit that transcript, you risk getting your admission 
-rescinded and find yourself returning to your home country.
+rescinded and finding yourself returning to your home country.
 - This completes and finalizes your admission to the university. Note that 
 some steps, timings, and formalities might differ depending on the 
 university you are applying to. You need to figure that out for yourself.
