@@ -1,56 +1,34 @@
-{% if site.style == 'dark' %}
-  {% assign icon_color = "#ffffff" %}
-{% else %}
-  {% assign icon_color = "#24292e" %}
-{% endif %}
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
 
-{% assign content = page.content %}
-
-{% assign posts_total = site.posts | size %}
-
-{% assign user = site.github.owner %}
-
-{% if page.path contains '_posts' %}
-  {% assign page_title = page.title %}
-  {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
-{% else %}
-  {% assign page_title = user.name %}
-  {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
-{% endif %}
-
-<!doctype html>
-<html class="min-height-full">
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Head ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164520821-3"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164520821-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
-      gtag('config', 'UA-164520821-3');
+      gtag('config', 'UA-164520821-1');
     </script>
+
     <!-- Google Analytics -->
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
-    ga('create', 'UA-164520821-3', 'auto');
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-164520821-1', 'auto'); //Default: https tracker
     //ga('send', 'pageview');
     </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
     <!-- End Google Analytics -->
-    
-    <!--Google site verification meta tag-->
-    <meta name="google-site-verification" content="qybncu6V4Amn1PmK5y_MaGDh7plZJE0BQgaExFF68fk" />
 
-    <meta charset="utf-8">
-    <title>{{ page_title }}</title>
-    <meta name="description" content="{{ meta_description }}" />
-    <meta property="og:title" content="{{ user.name }}" />
+    <!-- Google site verification -->
+    <meta name="google-site-verification" content="yYlkKTMSQbONW-z_LtZIJ097ZUR3t4lh6QR9sRyGfCM" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta name="description" content="Gajanan Choudhary is a Math Algorithm Engineer in the oneAPI Math Kernel Library (oneMKL) team at Intel Corporation. He is a computational scientist with PhD and Master's degrees from The University of Texas at Austin and Bachelor's degree from Indian Institute of Technology Kharagpur." />
 
@@ -62,10 +40,12 @@
 
     <meta property="og:title" content="About Gajanan Krishna Choudhary | Computational Scientist" />
     <meta property="og:image" content="{{ user.avatar_url }}" />
-    <meta property="og:description" content="{{ meta_description }}" />
-    <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+    <meta property="og:description" content="Gajanan Choudhary is a Math Algorithm Engineer in the oneAPI Math Kernel Library (oneMKL) team at Intel Corporation. He is a computational scientist with PhD and Master's degrees from The University of Texas at Austin and Bachelor's degree from Indian Institute of Technology Kharagpur." />
+    <meta property="og:url" content="http://users.oden.utexas.edu/~gajanan/" />
 
     <link rel="shortcut icon" href="assets/ico/favicon.png" />
+
+    <title>Gajanan Choudhary | Computational Scientist</title>
 
     <!-- SEO : JSON-LD Schema data -->
     <script type="application/ld+json"> {
@@ -121,8 +101,29 @@
     }
     </script>
 
+    <!-- Bootstrap core CSS -->
+    <!--<link href="assets/css/bootstrap.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!--Google Analytics timing information. Measures time spent on page.-->
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="assets/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/academicons.min.css"/>
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/w3smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
     <script type="text/javascript">
       function timer11(){ga('send', 'event', 'TimeOnPage', '11-30 seconds', '1', { 'nonInteraction': 1 });}
       function timer31(){ga('send', 'event', 'TimeOnPage', '31-60 seconds', '2', { 'nonInteraction': 1 });}
@@ -139,5 +140,26 @@
       setTimeout(timer1801,1801000);
     </script>
 
+
+    <script>
+      function showhide(divelem, spanself) {
+        var div = document.getElementById(divelem);
+        div.classList.toggle('hidden');
+        var span = document.getElementById(spanself);
+        if (span.innerHTML == '... (show more)') {
+          texttoshow = "(show less)";
+        }
+        else {
+          texttoshow = "... (show more)";
+        }
+        span.innerHTML = texttoshow;
+      }
+    </script>
+
   </head>
-  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Body ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
