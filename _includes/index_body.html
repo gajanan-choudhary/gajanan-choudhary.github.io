@@ -45,14 +45,14 @@
                     <h5>ABOUT</h5>
                 </div>
                 <div class="col-lg-6">
-                    <p>Computational scientist with many years of interdisciplinary
+                    <p>Computational scientist with a decade of interdisciplinary
                     research and test-driven scientific software development
-                    experience through 15+ projects spanning high-performance
-                    computing (HPC), object-oriented programming, applied
-                    math, numerical methods, computational mechanics,
-                    optimization, and machine learning. Expert in coupling
-                    scientific software and mixed-language programming with
-                    C/C++, Fortran, and Python.</p>
+                    experience spanning high-performance computing (HPC),
+                    CPU and GPU performance optimization, applied math,
+                    numerical methods, computational mechanics, and
+                    machine learning. Expert in HPC scientific software
+                    and mixed-language programming with C/C++, SYCL/DPC++,
+                    Fortran, and Python.</p>
                 </div>
                 <div class="col-lg-3">
                     <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.2.0/CV.pdf?pdf=CV" target="_blank"
@@ -101,7 +101,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <p><t>Math Algorithm Engineer</t><br/>
+                    <p><t>Software Engineer</t><br/>
                     Intel Corporation, Austin, TX, USA
                     <br/></p>
                 </div>
@@ -111,8 +111,13 @@
                 </div>
                 <!--div id="showhide_MAE_details"-->
                 <div class="col-lg-6 col-lg-offset-3">
-                    <div style="margin: 3px;"><span>Performance optimization of the</span>
-                    <span id="showhide_MAE_details" class="hidden">Intel(R) oneAPI Math Kernel Library (oneMKL) on Intel hardware.
+                    <div style="margin: 3px;"><span>Performance optimization of</span>
+                    <span id="showhide_MAE_details" class="hidden"> and feature implementations in Intel(R) oneAPI Math Kernel Library (oneMKL) on CPUs and GPUs
+                        <p><ul>
+                        <li>Doubled the performance of key SYCL APIs on GPUs, viz., sparse matrix-vector product (GEMV) and sparse x sparse matrix product (matmat) for CSR format</li>
+                        <li>Doubled the performance of sparse x dense matrix product (GEMM) on CPUs for certain block sizes with BSR format in oneMKL using AVX512 compiler intrinsics</li>
+                        </ul>
+                        </p>
                     </span>
                     <span style="cursor:pointer;" id="showhide_MAE_self" onclick="showhide('showhide_MAE_details','showhide_MAE_self')" >... (show more)</span>
                     <br/><br/>
@@ -134,8 +139,8 @@
                     <div style="margin: 3px;"><span>Open source parallel software</span>
                     <span id="showhide_RA_details" class="hidden">development for research on coupled machine learning and fluid dynamics models
                         <p><ul>
-                        <li>Leading the development of coupled <i>PyTorch</i> neural network and CFD/physics models in the Python software, Water Coupler</li>
-                        <li>Leading USACE-sponsored software projects to expand the capabilities of the CFD software, <i>Adaptive Hydraulics (AdH)</i>, through addition of <i>PETSc</i> solvers and coupling with <i>HEC-RAS</i></li>
+                        <li>Led the development of coupled <i>PyTorch</i> neural network and CFD/physics models in the Python software, Water Coupler</li>
+                        <li>Led USACE-sponsored software projects to expand the capabilities of the CFD software, <i>Adaptive Hydraulics (AdH)</i>, through addition of <i>PETSc</i> solvers and coupling with <i>HEC-RAS</i></li>
                         </ul>
                         </p>
                     </span>
@@ -325,7 +330,7 @@
                 <div class="col-lg-9">
                     <p><t>Programming:</t></p>
                     <div class="col-lg-8">
-                        <p>C/C++, Python, Fortran, MATLAB, Bash, MPI,
+                        <p>C/C++, SYCL/DPC++, Python, Fortran, MATLAB, Bash, MPI,
                         OpenMP, f2py, SWIG, and Python/C API<br/></p>
                     </div>
                 </div>
@@ -347,11 +352,13 @@
                         complexity, object-oriented programming
                         (OOP), standard template library (STL),
                         high-performance computing (HPC),
-                        parallel programming, general purpose GPU
-                        (GPGPU) programming, language
+                        parallel programming, CPU and GPU
+                        performance optimization, compiler
+                        intrinsics, assembly, language
                         interoperability, debugging, continuous
                         integration and continuous delivery
                         (CI/CD), and test-driven development
+                        (TDD)
                     <br/></p>
                     </div>
                 </div>
@@ -736,6 +743,18 @@
                     <h5>PUBLICATIONS</h5>
                 </div>
                 <div class="col-lg-6">
+                    <p><b>Choudhary, G. K.</b>, Trahan, C. J., Pettey, L., Farthing, M., Berger, C., Savant, G., Inanc, E., Dawson, C., & Loveland, M. D. (2023).
+                       <t>Strongly coupled 2D and 3D shallow water models I: Theory and verification</t>.
+                       <i>Journal of Hydraulic Engineering</i>, Submitted and under review.
+                    <br/><br/></p>
+                </div>
+                <div class="col-lg-6 col-lg-offset-3">
+                    <p><b>Choudhary, G. K.</b>, Trahan, C. J., Pettey, L., Farthing, M., Berger, C., Savant, G., Inanc, E., Dawson, C., & Loveland, M. D. (2023).
+                       <t>Strongly coupled 2D and 3D shallow water models II: Validation and applications</t>.
+                       <i>Journal of Hydraulic Engineering</i>, Submitted and under review.
+                    <br/><br/></p>
+                </div>
+                <div class="col-lg-6 col-lg-offset-3">
                     <p><a href="https://dx.doi.org/10.26153/tsw/7729" target="_blank"
                                 onClick="ga('send', 'event', {
                                     eventCategory: 'ExternalLinkAccess',
