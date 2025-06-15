@@ -45,17 +45,17 @@
                     <h5>ABOUT</h5>
                 </div>
                 <div class="col-lg-6">
-                    <p>Computational scientist with a decade of interdisciplinary
-                    research and test-driven scientific software development
-                    experience spanning high-performance computing (HPC),
-                    CPU and GPU performance optimization, applied math,
-                    numerical methods, computational mechanics, and
-                    machine learning. Expert in HPC scientific software
-                    and mixed-language programming with C/C++, SYCL/DPC++,
-                    Fortran, and Python.</p>
+                    <p>Computational scientist with 12+ years of interdisciplinary research and
+                       high-performance computing (HPC) production software development experience
+                       through long-term projects spanning applied mathematics, CPU/GPU kernel
+                       development, optimization, and machine learning.
+                       Creator of 4 scientific software, contributor to 5 HPC software written in
+                       C/C++, SYCL, Python, and Fortran, maintainer of the sparse BLAS domain in the
+                       open-source oneAPI Specification under the Unified Acceleration (UXL)
+                       foundation, and author of 6 technical publications.</p>
                 </div>
                 <div class="col-lg-3">
-                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.2.0/CV.pdf?pdf=CV" target="_blank"
+                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.6.0/CV.pdf?pdf=CV" target="_blank"
                                onClick="ga('send', 'event', {
                                    eventCategory: 'Download',
                                    eventAction: 'ClickAbout',
@@ -65,7 +65,7 @@
                         >
                             <i class="fa fa-file-pdf-o mygreen"></i><sm>DOWNLOAD PDF CV</sm>
                     </a></p>
-                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.2.0/two-page-resume.pdf?pdf=Resume" target="_blank"
+                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.6.0/two-page-resume.pdf?pdf=Resume" target="_blank"
                                 onClick="ga('send', 'event', {
                                     eventCategory: 'Download',
                                     eventAction: 'ClickAbout',
@@ -114,8 +114,12 @@
                     <div style="margin: 3px;"><span>Performance optimization of</span>
                     <span id="showhide_MAE_details" class="hidden"> and feature implementations in Intel(R) oneAPI Math Kernel Library (oneMKL) on CPUs and GPUs
                         <p><ul>
-                        <li>Doubled the performance of key SYCL APIs on GPUs, viz., sparse matrix-vector product (GEMV) and sparse x sparse matrix product (matmat) for CSR format</li>
-                        <li>Doubled the performance of sparse x dense matrix product (GEMM) on CPUs for certain block sizes with BSR format in oneMKL using AVX512 compiler intrinsics</li>
+                        <li>Owned sparse linear algebra and high-performance conjugate gradient (HPCG) benchmark components as a contributor in the Intel® oneAPI Math Kernel Library (oneMKL) team.</li>
+                        <li>Implemented GPU performance optimizations for the sparse matrix-vector product (GEMV) and sparse × sparse matrix product (spGEMM) SYCL APIs for compressed sparse row (CSR) matrices.</li>
+                        <li>Received division awards for implementing 700+ high-quality, general, hand-optimized  wrappers over x86 intrinsics APIs to support SIMD lengths {1, 2, 4, 8, 16} on AVX2 and AVX512 architectures for all common integer and real/complex floating-point types to ease kernel development, performance optimization, and testing overhead by orders of magnitude.</li>
+                        <li>Implemented extreme CPU performance optimizations for CSR and block compressed sparse row (BSR) matrix formats for sparse × dense matrix multiplication (GEMM) API in oneMKL for AVX2 and AVX512 architectures for all supported types using vectorization, unrolling, x86 intrinsics wrappers, and assembly.</li>
+                        <li>Introduced optimized SYCL/GPU APIs in oneMKL for sparse matrix addition, sorting, and transposition.</li>
+                        <li>Led the redefinition of sparse BLAS domain APIs in the oneAPI Specification for the UXL Foundation as a maintainer, and directed and reviewed implementation of Intel oneMKL, NVIDIA cuSPARSE, and AMD ROCm backends in the foundation's hardware- and platform-agnostic open-source implementation of those APIs: the oneMath library.</li>
                         </ul>
                         </p>
                     </span>
