@@ -216,7 +216,7 @@ Ph.D. from UT Austin. He works as a
         eventValue: 1
     });">Postdoctoral Fellow at UT</a>
 as of this writing. Further details about his profile are available on his
-<a href="https://users.oden.utexas.edu/~gajanan/" target="_blank"
+<a href="https://gajanan-choudhary.github.io" target="_blank"
     onClick="ga('send', 'event', {
         eventCategory: 'ExternalLinkAccess',
         eventAction: 'ClickArticleFooter',

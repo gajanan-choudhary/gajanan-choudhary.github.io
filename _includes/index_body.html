@@ -45,17 +45,16 @@
                     <h5>ABOUT</h5>
                 </div>
                 <div class="col-lg-6">
-                    <p>Computational scientist with 12+ years of interdisciplinary research and
-                       high-performance computing (HPC) production software development experience
-                       through long-term projects spanning applied mathematics, CPU/GPU kernel
-                       development, optimization, and machine learning.
-                       Creator of 4 scientific software, contributor to 5 HPC software written in
-                       C/C++, SYCL, Python, and Fortran, maintainer of the sparse BLAS domain in the
-                       open-source oneAPI Specification under the Unified Acceleration (UXL)
-                       foundation, and author of 6 technical publications.</p>
+                    <p>Computational scientist with over a decade of interdisciplinary research,
+                       high-performance computing (HPC), and artificial intelligence (AI) production
+                       software development experience through long-term projects spanning
+                       CPU/GPU/custom AI accelerator kernel libraries, scientific computing, deep
+                       learning, and applied mathematics.
+                       Creator of and contributor to numerous HPC/AI software products written in
+                       C/C++, SYCL, Python, and Fortran, and author of 6 technical publications.</p>
                 </div>
                 <div class="col-lg-3">
-                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.6.0/CV.pdf?pdf=CV" target="_blank"
+                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.7.0/CV.pdf?pdf=CV" target="_blank"
                                onClick="ga('send', 'event', {
                                    eventCategory: 'Download',
                                    eventAction: 'ClickAbout',
@@ -65,7 +64,7 @@
                         >
                             <i class="fa fa-file-pdf-o mygreen"></i><sm>DOWNLOAD PDF CV</sm>
                     </a></p>
-                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.6.0/two-page-resume.pdf?pdf=Resume" target="_blank"
+                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/releases/download/v1.7.0/two-page-resume.pdf?pdf=Resume" target="_blank"
                                 onClick="ga('send', 'event', {
                                     eventCategory: 'Download',
                                     eventAction: 'ClickAbout',
@@ -75,7 +74,7 @@
                         >
                             <i class="fa fa-file-pdf-o mygreen"></i><sm>DOWNLOAD PDF RESUME</sm>
                     </a></p>
-                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume-text" target="_blank"
+                    <p><a href="https://github.com/gajanan-choudhary/CV-Resume/blob/v1.7.0/README.md" target="_blank"
                                 onClick="ga('send', 'event', {
                                     eventCategory: 'ExternalLinkAccess',
                                     eventAction: 'ClickAbout',
@@ -101,20 +100,46 @@
                 </div>
 
                 <div class="col-lg-6">
+                    <p><t>Senior Staff Software Engineer</t><br/>
+                    Tenstorrent, Jersey City, NJ, USA
+                    <br/></p>
+                </div>
+                <div class="col-lg-3">
+                    <p><sm>JANUARY '26 - PRESENT</sm></p>
+                    <!--span id="showhide_TT_self" onclick="showhide('showhide_TT_details','showhide_TT_self')">See details...</span-->
+                </div>
+                <!--div id="showhide_TT_details"-->
+                <div class="col-lg-6 col-lg-offset-3">
+                    <div style="margin: 3px;"><span>Optimized AI kernels and</span>
+                    <span id="showhide_TT_details" class="hidden"> modules in TT-Metalium, Tenstorrent's open-source, low-level AI hardware SDK, to enable running frontier LLMs on Tenstorrent AI hardware
+                        <p><ul>
+                        <li>Delivered a natively scaled up, scaled out, generalized mixture of experts (MoE) module to support a swath of LLM architectures.</li>
+                        <li>Refactored the codebase for enabling next-generation, non-backwards-compatible AI accelerator.</li>
+                        <li>Improved out-of-the-box kernel selection for the matrix multiplication API through a better decision tree.</li>
+                        </ul>
+                        </p>
+                    </span>
+                    <span style="cursor:pointer;" id="showhide_TT_self" onclick="showhide('showhide_TT_details','showhide_TT_self')" >... (show more)</span>
+                    <br/><br/>
+                    </div>
+                </div>
+                <!--/div-->
+
+                <div class="col-lg-6 col-lg-offset-3">
                     <p><t>Math Algorithm Engineer / Software Engineer</t><br/>
                     Intel Corporation, Austin, TX, USA
                     <br/></p>
                 </div>
                 <div class="col-lg-3">
-                    <p><sm>FEBRUARY '21 - PRESENT</sm></p>
-                    <!--span id="showhide_RA_self" onclick="showhide('showhide_RA_details','showhide_RA_self')">See details...</span-->
+                    <p><sm>FEBRUARY '21 - JANUARY '26</sm></p>
+                    <!--span id="showhide_MKL_self" onclick="showhide('showhide_MKL_details','showhide_MKL_self')">See details...</span-->
                 </div>
-                <!--div id="showhide_MAE_details"-->
+                <!--div id="showhide_MKL_details"-->
                 <div class="col-lg-6 col-lg-offset-3">
                     <div style="margin: 3px;"><span>Performance optimization of</span>
-                    <span id="showhide_MAE_details" class="hidden"> and feature implementations in Intel(R) oneAPI Math Kernel Library (oneMKL) on CPUs and GPUs
+                    <span id="showhide_MKL_details" class="hidden"> and feature implementations in Intel(R) oneAPI Math Kernel Library (oneMKL) on CPUs and GPUs
                         <p><ul>
-                        <li>Owned sparse linear algebra and high-performance conjugate gradient (HPCG) benchmark components as a contributor in the Intel® oneAPI Math Kernel Library (oneMKL) team.</li>
+                        <li>Owned sparse linear algebra components as a contributor in the Intel® oneAPI Math Kernel Library (oneMKL) team.</li>
                         <li>Implemented GPU performance optimizations for the sparse matrix-vector product (GEMV) and sparse × sparse matrix product (spGEMM) SYCL APIs for compressed sparse row (CSR) matrices.</li>
                         <li>Received division awards for implementing 700+ high-quality, general, hand-optimized  wrappers over x86 intrinsics APIs to support SIMD lengths {1, 2, 4, 8, 16} on AVX2 and AVX512 architectures for all common integer and real/complex floating-point types to ease kernel development, performance optimization, and testing overhead by orders of magnitude.</li>
                         <li>Implemented extreme CPU performance optimizations for CSR and block compressed sparse row (BSR) matrix formats for sparse × dense matrix multiplication (GEMM) API in oneMKL for AVX2 and AVX512 architectures for all supported types using vectorization, unrolling, x86 intrinsics wrappers, and assembly.</li>
@@ -123,7 +148,7 @@
                         </ul>
                         </p>
                     </span>
-                    <span style="cursor:pointer;" id="showhide_MAE_self" onclick="showhide('showhide_MAE_details','showhide_MAE_self')" >... (show more)</span>
+                    <span style="cursor:pointer;" id="showhide_MKL_self" onclick="showhide('showhide_MKL_details','showhide_MKL_self')" >... (show more)</span>
                     <br/><br/>
                     </div>
                 </div>
@@ -342,10 +367,10 @@
                 <div class="col-lg-9 col-lg-offset-3">
                     <p><t>Tools:</t></p>
                     <div class="col-lg-8">
-                        <p>Git, GitHub, Copilot, Actions, Bitbucket, Mercurial,
-                        SVN, Travis CI, CircleCI, Docker, Codecov, Coveralls,
-                        GNU Make, CMake, Gcov, LCOV, GProf, GDB, Valgrind,
-                        LaTeX, Doxygen, HTML, and CSS
+                        <p>Git, GitHub, Cursor, Claude Code, Copilot, Actions,
+                        Bitbucket, Mercurial, SVN, Travis CI, CircleCI, Docker,
+                        Codecov, Coveralls, GNU Make, CMake, Gcov, LCOV, GProf,
+                        GDB, Valgrind, Doxygen, LaTeX, HTML, and CSS
                         <br/></p>
                     </div>
                 </div>

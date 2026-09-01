@@ -27,7 +27,7 @@
       </div>
       <div class="{{ metadata_styles }}">
         {% octicon globe height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Website %}
-        <a href="https://users.oden.utexas.edu/~gajanan/" target="_blank" {% if site.style == 'dark' %}class="text-white"{% endif %}
+        <a href="https://{{ user.login }}.github.io" target="_blank" {% if site.style == 'dark' %}class="text-white"{% endif %}
             onClick="ga('send', 'event', {
                 eventCategory: 'ExternalLinkAccess',
                 eventAction: 'ClickMastHead',
